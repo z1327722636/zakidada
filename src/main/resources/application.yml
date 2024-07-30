@@ -23,7 +23,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/my_db
     username: root
-    password: 123456
+    password: zk20030425
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
@@ -75,4 +75,4 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.yupi.springbootinit.controller
+          - com.zaki.zakidada.controller
