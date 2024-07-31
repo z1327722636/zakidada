@@ -1,11 +1,14 @@
 package com.zaki.zakidada.common;
 
+import lombok.Data;
+import lombok.Getter;
+
 /**
  * 自定义错误码
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ *author <a href="https://github.com/1327722636">zaki</a>
  */
+@Getter
 public enum ErrorCode {
 
     SUCCESS(0, "ok"),

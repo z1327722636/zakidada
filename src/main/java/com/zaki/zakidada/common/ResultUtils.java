@@ -3,8 +3,7 @@ package com.zaki.zakidada.common;
 /**
  * 返回工具类
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ *@author <a href="https://github.com/1327722636">zaki</a>
  */
 public class ResultUtils {
 
