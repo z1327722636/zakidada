@@ -49,4 +49,6 @@ public interface QuestionService extends IService<Question> {
      * @return
      */
     Page<QuestionVO> getQuestionVOPage(Page<Question> questionPage, HttpServletRequest request);
+
+    String AICreateTitle(int number, String appAiSysMessageConfig, String appAiUserMessageConfig);
 }

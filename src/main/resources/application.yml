@@ -1,6 +1,5 @@
 # 公共配置文件
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
+
 spring:
   application:
     name: zakidada-backend
@@ -23,7 +22,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/zakidada
     username: root
-    password: zk20030425
+    password: xxx
   # Redis 配置
   # todo 需替换配置，然后取消注释
 #  redis:
@@ -46,7 +45,11 @@ server:
     # cookie 30 天过期
     session:
       cookie:
-        max-age: 2592000
+        max-age: 259200
+        #解决跨域cookie问题
+        same-site: none
+        secure: true
+
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: false
@@ -61,7 +64,7 @@ mybatis-plus:
 # todo 需替换配置
 cos:
   client:
-    accessKey: xxx
+    accessKey: xxxx
     secretKey: xxx
     region: xxx
     bucket: xxx
@@ -76,3 +79,7 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.zaki.zakidada.controller
+#ai金额口
+# AI 配置
+ai:
+  apiKey: xxx

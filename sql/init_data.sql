@@ -7,21 +7,65 @@ INSERT INTO user (id, userAccount, userPassword, unionId, mpOpenId, userName, us
 VALUES (1, 'yupi', 'b0dd3697a192885d7c055db46155b26a', null, null, '鱼皮',
         'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d31.jpg/w700d1q75cms.jpg',
         '欢迎来编程导航学习', 'admin', '2024-05-09 11:13:13', '2024-05-09 15:07:48', 0);
+INSERT INTO user (id, userAccount, userPassword, unionId, mpOpenId, userName, userAvatar, userProfile, userRole,
+                  createTime, updateTime, isDelete)
+VALUES (132123, 'zakia1', 'b0dd3697a192885d7c055db46155b26a', null, null, 'zaki1',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d31.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀1', 'admin', '2024-05-09 11:13:13', '2024-05-09 15:07:48', 0),
+       (2, 'zakia2', 'c0dd3697a192885d7c055db46155b26b', null, null, 'zaki2',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d32.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀2', 'user', '2024-05-09 12:13:13', '2024-05-09 16:07:48', 1),
+       (3, 'zakia3', 'd0dd3697a192885d7c055db46155b26c', null, null, 'zaki3',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d33.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀3', 'admin', '2024-05-09 13:13:13', '2024-05-09 17:07:48', 0),
+       (4, 'zakia4', 'e0dd3697a192885d7c055db46155b26d', null, null, 'zaki4',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d34.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀4', 'user', '2024-05-09 14:13:13', '2024-05-09 18:07:48', 1),
+       (5, 'zakia5', 'f0dd3697a192885d7c055db46155b26e', null, null, 'zaki5',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d35.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀5', 'admin', '2024-05-09 15:13:13', '2024-05-09 19:07:48', 0),
+       (6, 'zakia6', 'g0dd3697a192885d7c055db46155b26f', null, null, 'zaki6',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d36.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀6', 'user', '2024-05-09 16:13:13', '2024-05-09 20:07:48', 1),
+       (7, 'zakia7', 'h0dd3697a192885d7c055db46155b270', null, null, 'zaki7',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d37.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀7', 'admin', '2024-05-09 17:13:13', '2024-05-09 21:07:48', 0),
+       (8, 'zakia8', 'i0dd3697a192885d7c055db46155b271', null, null, 'zaki8',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d38.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀8', 'user', '2024-05-09 18:13:13', '2024-05-09 22:07:48', 1),
+       (9, 'zakia9', 'j0dd3697a192885d7c055db46155b272', null, null, 'zaki9',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d39.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀9', 'admin', '2024-05-09 19:13:13', '2024-05-09 23:07:48', 0),
+       (10, 'zakia10', 'k0dd3697a192885d7c055db46155b273', null, null, 'zaki10',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d40.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀10', 'user', '2024-05-09 20:13:13', '2024-05-09 23:47:48', 1),
+       (11, 'zakia11', 'l0dd3697a192885d7c055db46155b274', null, null, 'zaki11',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d41.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀11', 'admin', '2024-05-09 21:13:13', '2024-05-10 00:07:48', 0),
+       (12, 'zakia12', 'm0dd3697a192885d7c055db46155b275', null, null, 'zaki12',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d42.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀12', 'user', '2024-05-09 22:13:13', '2024-05-10 01:07:48', 1),
+       (13, 'zakia13', 'n0dd3697a192885d7c055db46155b276', null, null, 'zaki13',
+        'https://k.sinaimg.cn/n/sinakd20110/560/w1080h1080/20230930/915d-f3d7b580c33632b191e19afa0a858d43.jpg/w700d1q75cms.jpg',
+        '手动阀手动阀13', 'admin', '2024-05-09 23:13:13', '2024-05-10 02:07:48', 0);
 
 -- 应用表初始数据
 INSERT INTO app (id, appName, appDesc, appIcon, appType, scoringStrategy, reviewStatus, reviewMessage, reviewerId,
                  reviewTime, userId, createTime, updateTime, isDelete)
-VALUES (1, '自定义MBTI性格测试', '测试性格', '11', 1, 0, 1, null, null, null, 1, '2024-04-24 15:58:05', '2024-05-09 15:09:53', 0);
+VALUES (1, '自定义MBTI性格测试', '测试性格', '11', 1, 0, 1, null, null, null, 1, '2024-04-24 15:58:05',
+        '2024-05-09 15:09:53', 0);
 INSERT INTO app (id, appName, appDesc, appIcon, appType, scoringStrategy, reviewStatus, reviewMessage, reviewerId,
                  reviewTime, userId, createTime, updateTime, isDelete)
-VALUES (2, '自定义得分测试', '测试得分', '22', 0, 0, 1, null, null, null, 1, '2024-04-25 11:39:30', '2024-05-09 15:09:53', 0);
+VALUES (2, '自定义得分测试', '测试得分', '22', 0, 0, 1, null, null, null, 1, '2024-04-25 11:39:30',
+        '2024-05-09 15:09:53', 0);
 INSERT INTO app (id, appName, appDesc, appIcon, appType, scoringStrategy, reviewStatus, reviewMessage, reviewerId,
                  reviewTime, userId, createTime, updateTime, isDelete)
 VALUES (3, 'AI MBTI 性格测试', '快来测测你的 MBTI', '11', 1, 1, 1, null, null, null, 1, '2024-04-26 16:38:12',
         '2024-05-09 15:09:53', 0);
 INSERT INTO app (id, appName, appDesc, appIcon, appType, scoringStrategy, reviewStatus, reviewMessage, reviewerId,
                  reviewTime, userId, createTime, updateTime, isDelete)
-VALUES (4, 'AI 得分测试', '看看你熟悉多少首都', '22', 0, 1, 1, null, null, null, 1, '2024-04-26 16:38:56', '2024-05-09 15:09:53', 0);
+VALUES (4, 'AI 得分测试', '看看你熟悉多少首都', '22', 0, 1, 1, null, null, null, 1, '2024-04-26 16:38:56',
+        '2024-05-09 15:09:53', 0);
 
 -- 题目表初始数据
 INSERT INTO question (id, questionContent, appId, userId, createTime, updateTime, isDelete)
@@ -121,10 +165,12 @@ VALUES (19, '继续加油！', '还需努力哦', null, null, 0, '2024-04-25 15:
 
 -- 用户回答表初始数据
 INSERT INTO user_answer (id, appId, appType, choices, resultId, resultName, resultDesc, resultPicture, resultScore,
-                              scoringStrategy, userId, createTime, updateTime, isDelete)
-VALUES (1, 1, 1, '["A","A","A","B","A","A","A","B","B","A"]', 1, 'ISTJ（物流师）', '忠诚可靠，被公认为务实，注重细节。', 'icon_url_istj',
+                         scoringStrategy, userId, createTime, updateTime, isDelete)
+VALUES (1, 1, 1, '["A","A","A","B","A","A","A","B","B","A"]', 1, 'ISTJ（物流师）', '忠诚可靠，被公认为务实，注重细节。',
+        'icon_url_istj',
         null, 0, 1, '2024-05-09 15:08:22', '2024-05-09 15:10:13', 0);
 INSERT INTO user_answer (id, appId, appType, choices, resultId, resultName, resultDesc, resultPicture, resultScore,
-                              scoringStrategy, userId, createTime, updateTime, isDelete)
-VALUES (2, 2, 0, '["D","C","B","D","A","C","C","B","C","A"]', 17, '首都知识大师', '你真棒棒哦，首都知识非常出色！', null, 10, 0, 1,
+                         scoringStrategy, userId, createTime, updateTime, isDelete)
+VALUES (2, 2, 0, '["D","C","B","D","A","C","C","B","C","A"]', 17, '首都知识大师', '你真棒棒哦，首都知识非常出色！', null,
+        10, 0, 1,
         '2024-05-09 15:08:36', '2024-05-09 15:10:13', 0);

@@ -69,9 +69,9 @@ public class ScoringResultServiceImpl extends ServiceImpl<ScoringResultMapper, S
             // 描述不能为空
             ThrowUtils.throwIf(StringUtils.isBlank(resultDesc), ErrorCode.PARAMS_ERROR, "结果描述不能为空");
             // 属性不能为空
-            ThrowUtils.throwIf(StringUtils.isBlank(resultProp), ErrorCode.PARAMS_ERROR, "结果属性不能为空");
+//            ThrowUtils.throwIf(StringUtils.isBlank(resultProp), ErrorCode.PARAMS_ERROR, "结果属性不能为空");
             // 评分范围不能为空
-            ThrowUtils.throwIf(resultScoreRange == null, ErrorCode.PARAMS_ERROR, "结果评分范围不能为空");
+//            ThrowUtils.throwIf(resultScoreRange == null, ErrorCode.PARAMS_ERROR, "结果评分范围不能为空");
             // 应用 ID 不能为空
             ThrowUtils.throwIf(appId == null, ErrorCode.PARAMS_ERROR, "应用 ID 不能为空");
         }

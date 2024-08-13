@@ -19,4 +19,9 @@ public class QuestionAnswerDTO {
      * 用户答案
      */
     private String userAnswer;
+
+    /**
+     * 选项得分
+     */
+    private Integer optionScore;
 }

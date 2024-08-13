@@ -8,7 +8,8 @@ import lombok.Data;
 
 /**
  * 应用
- * @TableName app
+ *
+ * @author 13277
  */
 @TableName(value ="app")
 @Data

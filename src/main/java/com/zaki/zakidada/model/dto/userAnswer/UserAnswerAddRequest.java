@@ -15,9 +15,10 @@ public class UserAnswerAddRequest implements Serializable {
 
     private static final long serialVersionUID = 1L;
     /**
-     * id（用户答案 id，用于保证提交答案的幂等性）
+     * 用户答案 id
      */
     private Long id;
+
     /**
      * 应用 id
      */
